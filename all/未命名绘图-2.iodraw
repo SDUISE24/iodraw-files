@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="dcw0Qdsk6H3um-pnx7um">
-    <mxGraphModel dx="2696" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3033" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -727,6 +727,57 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4oyMjLRhy6WX9E9edsBK-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-64" target="4oyMjLRhy6WX9E9edsBK-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-76" value="程序开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="76" y="9100" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-77" value="初始化中断向量调用 2Ch" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="9199" width="236" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-78" value="从寄存器 DL 取得百分秒时间" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="52" y="9297" width="172" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-79" value="将 DL 的值作为随机种子" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="22" y="9414" width="231" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-80" value="计算 1—9 之间的随机数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="25" y="9512" width="226" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-81" value="在屏幕上显示随机数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="9611" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-82" value="程序结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="76" y="9710" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-76" target="4oyMjLRhy6WX9E9edsBK-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-77" target="4oyMjLRhy6WX9E9edsBK-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-78" target="4oyMjLRhy6WX9E9edsBK-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-79" target="4oyMjLRhy6WX9E9edsBK-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-80" target="4oyMjLRhy6WX9E9edsBK-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyMjLRhy6WX9E9edsBK-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="4oyMjLRhy6WX9E9edsBK-81" target="4oyMjLRhy6WX9E9edsBK-82">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
